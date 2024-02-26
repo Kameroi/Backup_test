@@ -1,0 +1,23 @@
+# Log file path
+log_file="/var/log/backup_script/backup.log"
+
+# Remote directory path (files to copy)
+remote_dir="/path/to/source/directory"
+
+# Local directory path for backup
+local_dir="/path/to/backup/directory"
+
+# Local directory path to put archives in.
+archive_dir="/path/to/archive/directory"
+
+# Archive retention days.
+retention_days=3
+
+# Remote user name
+remote_user="name"
+
+# Remote server IP
+remote_host="192.168.0.0"
+
+# Email recipient
+recipient="example@mail.com"
